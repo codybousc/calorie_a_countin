@@ -1,0 +1,9 @@
+<%= form_for @exercise, remote: true do |f| %>
+  &nbsp;<%= f.label :exercise_type %>&nbsp;
+  <%= f.text_field :exercise_type %>
+  <br>
+  &nbsp;&nbsp;&nbsp;<%= f.label :calories %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <%= f.text_field :calories %>
+  <br><br>
+  <%= f.button "Submit" %>
+<% end %>

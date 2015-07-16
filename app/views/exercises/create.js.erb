@@ -1,0 +1,4 @@
+$('#new_exercise').remove();
+$('#enter-exercise-link').show();
+$('.exercise-calorie-total').text('<%= @calories_burned %>');
+$('#exercise_table').append('<%= j render 'exercises/exercise', exercise: @exercise %>');

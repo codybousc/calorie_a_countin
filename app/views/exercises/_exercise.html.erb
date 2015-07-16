@@ -1,0 +1,4 @@
+<tr id="exercise_<%= exercise.id %>">
+  <td><%= link_to image_tag('trash.png'), exercise_path(exercise), :data => {:method => "delete"}, remote: true %>&nbsp;<%= exercise.exercise_type %></td>
+  <td><%= exercise.calories %></td>
+</tr>

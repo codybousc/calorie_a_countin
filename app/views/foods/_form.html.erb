@@ -1,0 +1,9 @@
+<%= form_for @food, remote: true do |f| %>
+  &nbsp;<%= f.label :name %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <%= f.text_field :name %>
+  <br>
+  <%= f.label :calories %>&nbsp;&nbsp;
+  <%= f.text_field :calories %>
+  <br><br>
+  <%= f.button "Submit" %>
+<% end %>

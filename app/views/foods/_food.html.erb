@@ -1,0 +1,4 @@
+<tr id="food_<%= food.id %>">
+  <td><%= link_to image_tag('trash.png'), food_path(food), :data => {:method => "delete"}, remote: true %>&nbsp;<%= food.name %></td>
+  <td><%= food.calories %></td>
+</tr>

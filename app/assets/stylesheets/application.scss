@@ -1,0 +1,56 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+.center {
+  text-align: center
+}
+
+.first_column {
+  width: 85%
+}
+
+body {
+  background-image: url("http://cdn.trendhunterstatic.com/thumbs/awkward-glamour-shots.jpeg");
+  font-family: 'Arvo', serif;
+}
+
+.well {
+  background: rgba(255, 255, 255, 0.59)
+}
+
+.trashcan {
+  height: 13px;
+  width: 20px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+  float: left;
+  background: url("http://png-4.findicons.com/files/icons/1580/devine_icons_part_2/128/trash_recyclebin_empty_closed.png") no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+
+}
+
+.page-padding-top {
+  padding-top: 28px;
+}
