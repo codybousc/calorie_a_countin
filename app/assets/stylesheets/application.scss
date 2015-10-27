@@ -22,14 +22,24 @@
   text-align: center
 }
 
+html {
+  height: 100%;
+}
+
 .first_column {
   width: 85%
 }
 
 body {
-  background-image: url("http://cdn.trendhunterstatic.com/thumbs/awkward-glamour-shots.jpeg");
+  background-image: url("http://s21.postimg.org/htnj9mnmv/royal_T.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-family: 'Arvo', serif;
 }
+
 
 .well {
   background: rgba(255, 255, 255, 0.59)
